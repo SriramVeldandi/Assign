@@ -1,0 +1,7 @@
+---
+ - name: installing java and apache2 in instance 2
+   hosts: web
+   become: true
+   tasks:
+   - name: installing java and apache2
+     script: java-apache2-install.sh
