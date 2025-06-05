@@ -1,0 +1,9 @@
+---
+ - name: echoing devil.txt
+   hosts: web1
+   become: true
+   tasks:
+   - name: devil.txt
+     script: devil.sh
+
+
