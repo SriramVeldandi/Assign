@@ -1,6 +1,6 @@
 ---
  - name: echoing devil.txt
-   hosts: web1
+   hosts: web2
    become: true
    tasks:
    - name: devil.txt
